@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Login from './paginas/login/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
-import { ToastContainer } from 'react-toastify';
 import Cadastro from './paginas/cadastro/Cadastro';
 import Navbar from './components/navbar/Navbar';
 import Home from './paginas/home/Home';
@@ -19,6 +18,7 @@ import FormularioPostagem from './components/postagens/formularioPostagens/Formu
 
 import Perfil from './paginas/perfil/Perfil';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   
