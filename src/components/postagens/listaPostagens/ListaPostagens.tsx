@@ -5,7 +5,7 @@ import Postagem from '../../../models/Postagem';
 import { buscar } from '../../../services/Service';
 import CardPostagem from '../cardPostagem/CardPostagem';
 import { toastAlerta } from '../../../util/toastAlerta';
-import {Dna} from 'react-loader-spinner';
+import { DNA } from 'react-loader-spinner';
 
 function ListaPostagens() {
   const [postagens, setPostagens] = useState<Postagem[]>([]);
@@ -44,7 +44,7 @@ function ListaPostagens() {
   return (
     <>
       {postagens.length === 0 && (
-        <Dna
+        <DNA
           visible={true}
           height="200"
           width="200"
